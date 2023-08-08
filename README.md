@@ -1,4 +1,4 @@
-<img width="40% src="https://d335luupugsy2.cloudfront.net/cms/files/10224/1662417840/$u07pzwncrr">
+<img width="40%" src="https://d335luupugsy2.cloudfront.net/cms/files/10224/1662417840/$u07pzwncrr">
 
 # Programa ONE + Alura Challenge Iniciante em Programação 🚀🚀
 ## Decodificador de Texto
