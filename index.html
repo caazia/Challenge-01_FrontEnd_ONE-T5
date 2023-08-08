@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/responsivo.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./css/imagens/iconmonstr-dashboard-lined.svg" type="image/svg">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="./css/imagens/Vector.png" alt="logo da alura">
+        <h1 class="cabecalho__texto">Codificador/Decodificador</h1>
+    </header>
+
+    <main class="container">
+
+        <section class="container__input">
+            <div class="input">
+                <textarea class="text__area" id="text__area" cols="41" rows="4" placeholder="Digite o seu texto aqui"></textarea>
+                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+        </section>
+            
+        <section class="botao">
+            <div class="botao__acao">
+                <button class="button__encriptar" id="btn__encriptar">Criptografar</button>
+                <button class="button__desencriptar" id="btn__desencriptar">Descriptografar</button>
+            </div>
+        </section>
+
+        <aside class="aside" id="aside">
+            <div class="semMensagem" id="semMensagem">
+                <img class="output__img" src="./css/imagens/High quality products 1 1.png" alt="imagem de um boneco">
+                <h2 class="output__mensagem">Sua mensagem aparecerá aqui!</h2>
+                <span class="output__span" cols="20" rows="10">Digite um texto que deseja criptografar ou descriptografar.</span>
+            </div>
+
+            <div class="mensagem">
+                <textarea class="output" id="output__texto" readonly></textarea>
+                <button class="button__copiar" id="btn__copiar">Copiar</button>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/cassia-carvalh/" target="_blank" class="rodape__link">
+                <img class="icone" alt="Icone do linkedin" src="./css/imagens/iconmonstr-linkedin-3.svg">
+            </a>
+    
+            <a href="https://www.instagram.com/zonzobulando/" target="_blank" class="rodape__link">
+                <img class="icone" alt="Icone do instagram" src="./css/imagens/iconmonstr-instagram-14.svg">
+            </a>
+    
+            <a href="https://github.com/caazia" target="_blank" class="rodape__link">
+                <img class="icone" alt="Icone do github" src="./css/imagens/iconmonstr-github-3.svg">
+            </a>
+        </div>
+        <span class="rodape__texto">
+            Feito com 
+            <img class="icone__texto icone" alt="amor" src="./css/imagens/iconmonstr-favorite-1.svg">
+            por Cássia Carvalho
+        </span>
+    </footer>
+
+    <script src="./script.js" type="text/javascript"></script>
+
+</body>
+</html>

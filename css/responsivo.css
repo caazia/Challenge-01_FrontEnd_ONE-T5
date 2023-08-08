@@ -1,0 +1,71 @@
+@media screen and (max-width: 799px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2vh 4vw;
+        gap: 50px;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .botao__acao {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mensagem {
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100%;
+        font-size: 32px;
+    }
+
+    .semMensagem {
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 28px;
+        top: 15%;
+        left: 10%;
+        right: 10%;
+    }
+    .output__img {
+        display: none;
+    }
+
+    .output__mensagem {
+        font-size: 0.75em;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5rem;
+        text-align: center;
+    }
+   
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+
+    main section {
+        height: 60%;
+    }
+
+    .output__img {
+        width: 18vw;
+    }
+
+    .output__mensagem {
+        font-size: 22px;
+    }
+
+    .output__span {
+        font-size: 13px;
+    }
+    .button__copiar {
+        width: 60%;
+        padding: 18px;
+    }
+
+}
