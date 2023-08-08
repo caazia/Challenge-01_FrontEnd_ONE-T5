@@ -12,4 +12,7 @@
 
 [Visite o projeto online](https://caazia.github.io/Challenge-01_FrontEnd_ONE-T5/)
 
+## ✨🎉 Minha Bagde
+![](https://cdn.discordapp.com/attachments/942604194064506920/1138616332565368862/cms_files_10224_1671211139Prancheta_3.png) 
+ ❤ ❤ ❤
 <br><hr><br>
