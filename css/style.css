@@ -11,6 +11,7 @@
     --corclara: #f0efed;
 }
 
+
 * {
     background: var(--corprincipal);
     box-sizing: border-box;
@@ -147,8 +148,8 @@ main section {
 .semMensagem {
     box-sizing: border-box;
     position: absolute;
-    width: 80%;
-    height: 70%;
+    width: 75%;
+    height: 65%;
     top: 20%;
     left: 10%;
     right: 10%;
@@ -210,6 +211,7 @@ main section {
     width: 85%;
     height: 67px;
     padding: 24px;
+    margin: 10px;
     color: var(--corbotao);
     font-size: 16px;
     cursor: pointer;

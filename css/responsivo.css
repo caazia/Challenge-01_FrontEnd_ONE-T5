@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 475px) {
+@media (min-width: 0px) and (max-width: 698px) {
 
     .cabecalho {
         display: flex;
@@ -18,9 +18,10 @@
         padding: 0;
         justify-content: space-evenly;
     }
+
     .text__area {
         width: 50vw;
-        height: 50vh;
+        height: 45vh;
         font-size: 20px;
     }
 
@@ -44,78 +45,129 @@
         padding: 15px;
     }
 
-}
-
-/* CONTINUAAAA */
-
-@media (min-width: 476px) and (max-width: 698px)) {
-    /* main {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 2vh 4vw;
-        gap: 50px;
-        height: 100vh;
-        width: 100vw;
-    }
-
-    .botao__acao {
-        flex-direction: column;
-        width: 100%;
-    }
-    .mensagem {
-        box-sizing: border-box;
-        width: 100vw;
-        height: 100%;
-        font-size: 32px;
+    .aside {
+        height: 77vh;
+        left: 60vw;
+        width: 35vw;
+        padding: 8px;
+        top: 55px;
     }
 
     .semMensagem {
-        box-sizing: border-box;
-        position: absolute;
-        font-size: 28px;
-        top: 15%;
-        left: 10%;
-        right: 10%;
+        font-size: 16px;
     }
+
     .output__img {
         display: none;
     }
 
     .output__mensagem {
-        font-size: 0.75em;
-    }
-
-    .rodape {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 5rem;
-        text-align: center;
-    }*/
-
-}
-
-@media (min-width: 698px) and (max-width: 960px) {
-
-    /* main section {
-        height: 60%;
-    }
-
-    .output__img {
-        width: 18vw;
-    }
-
-    .output__mensagem {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .output__span {
-        font-size: 13px;
+        font-size: 14px;
+        align-items: center;
+        padding: auto;
+        margin: auto;
     }
+
+    .output {
+        font-size: 16px;
+    }
+
     .button__copiar {
-        width: 60%;
-        padding: 18px;
+        width: 90px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
     }
-*/
+
+    .rodape {
+        margin-top: 8px;
+    }
+
+    .rodape__texto {
+        font-size: 10px;
+    }
+
+    .icone {
+        width: 14px;
+    }
+}
+
+@media (min-width: 699px) and (max-width: 1240px) {
+
+    .cabecalho__texto {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .text__area {
+        width: 55vw;
+        height: 50vh;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .informacao {
+        font-size: 16px;
+    }
+
+    .botao__acao {
+        flex-flow: column wrap;
+    }
+
+    .botao__acao button:first-of-type {
+        width: 200px;
+        height: 70px;
+        padding: 20px;
+    }
+
+    .botao__acao button:last-of-type {
+        width: 200px;
+        height: 70px;
+        padding: 20px;
+    }
+
+    .aside {
+        height: 77vh;
+        left: 60vw;
+        width: 35vw;
+        padding: 8px;
+        top: 55px;
+    }
+
+    .semMensagem {
+        font-size: 16px;
+    }
+
+    .output__img {
+        height: 18vh;
+    }
+
+    .output__mensagem {
+        font-size: 28px;
+    }
+
+    .output__span {
+        font-size: 18px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .output {
+        font-size: 30px;
+    }
+
+    .button__copiar {
+        width: 150px;
+        height: 60px;
+        padding: 20px;
+        margin: 20px;
+    }
 }
