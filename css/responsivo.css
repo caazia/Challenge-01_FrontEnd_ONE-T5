@@ -1,5 +1,55 @@
-@media screen and (max-width: 799px) {
-    main {
+@media (min-width: 0px) and (max-width: 475px) {
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cabecalho__logo {
+        display: none;
+    }
+
+    .cabecalho__texto {
+        font-size: 22px;
+    }
+
+    .container {
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    .text__area {
+        width: 50vw;
+        height: 50vh;
+        font-size: 20px;
+    }
+
+    .informacao {
+        font-size: 9px;
+    }
+
+    .botao__acao {
+        flex-flow: column wrap;
+    }
+
+    .botao__acao button:first-of-type {
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+    }
+
+    .botao__acao button:last-of-type {
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+    }
+
+}
+
+/* CONTINUAAAA */
+
+@media (min-width: 476px) and (max-width: 698px)) {
+    /* main {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -42,13 +92,13 @@
         justify-content: space-around;
         padding: 5rem;
         text-align: center;
-    }
-   
+    }*/
+
 }
 
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 698px) and (max-width: 960px) {
 
-    main section {
+    /* main section {
         height: 60%;
     }
 
@@ -67,5 +117,5 @@
         width: 60%;
         padding: 18px;
     }
-
+*/
 }
